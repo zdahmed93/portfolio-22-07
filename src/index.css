@@ -16,3 +16,8 @@ body {
   margin-bottom: 10px;
   color: purple;
 }
+
+.avatar {
+  width: 200px;
+  border-radius: 50%;
+}
