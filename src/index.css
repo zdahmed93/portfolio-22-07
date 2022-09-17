@@ -1,3 +1,18 @@
 body {
   background-color: lightblue;
 }
+
+.contact-item {
+  display: flex;
+  align-items: center;
+}
+
+.contact-text {
+  margin-left: 10px;
+}
+
+.custom-icon {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: purple;
+}

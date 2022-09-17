@@ -12,10 +12,12 @@ function App() {
       <BrowserRouter>
         <h1>Hello</h1>
         <Navbar />
-        <Route exact path="/" component={Home} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/skills" component={Skills} />
-        <Route path="/projects" component={Projects} />
+        <div className='container mt-5'>
+          <Route exact path="/" component={Home} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/skills" component={Skills} />
+          <Route path="/projects" component={Projects} />
+        </div>
       </BrowserRouter>
     </div>
   );
