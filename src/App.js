@@ -10,7 +10,6 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-        <h1>Hello</h1>
         <Navbar />
         <div className='container mt-5'>
           <Route exact path="/" component={Home} />
